@@ -5,9 +5,8 @@ Two algorithms are implemented in this project.
 1) Create a Generalized Voronoi Diagram path over a map with obstacles.
 2) Return a list of Points to reach a point B starting from a point A.
 
-To create an obstacle you have to insert the vertices clockwise
+To create an obstacle you have to insert the vertices clockwise. Example
 
-Example
 std::vector<Punto*> obj;
 obj.push_back(new Punto(20,80));
 obj.push_back(new Punto(20,90));
