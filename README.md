@@ -7,11 +7,11 @@ Two algorithms are implemented in this project.
 
 To create an obstacle you have to insert the vertices clockwise. Example
 
-std::vector<Punto*> obj;
-obj.push_back(new Punto(20,80));
-obj.push_back(new Punto(20,90));
-obj.push_back(new Punto(30,90));
-obj.push_back(new Punto(30,80));
+std::vector<Punto*> obj; 
+obj.push_back(new Punto(20,80)); 
+obj.push_back(new Punto(20,90)); 
+obj.push_back(new Punto(30,90)); 
+obj.push_back(new Punto(30,80)); 
 Ostacolo *o=new Ostacolo(&obj);	
 
 After this you have to create a vector with your created obstacles
