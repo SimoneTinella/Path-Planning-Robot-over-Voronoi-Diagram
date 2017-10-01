@@ -7,7 +7,7 @@ Two algorithms are implemented in this project.
 
 To create an obstacle you have to insert the vertices clockwise. Example
 
-std::vector<Punto*> obj; 
+std::vector<Punto*> obj; \\
 obj.push_back(new Punto(20,80)); 
 obj.push_back(new Punto(20,90)); 
 obj.push_back(new Punto(30,90)); 
