@@ -8,7 +8,7 @@
 
 const double unit= 1;
 const double raggio_ricerca= 5*unit*sqrt(2); //raggio ricerca vicini
-const double dist_tolleranza= unit;
+const double dist_tolleranza= unit*sqrt(2);
 
 const double distanza= 5*unit;//*sqrt(2); //filtro
 const int scarto=1; //filtro
