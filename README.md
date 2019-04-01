@@ -36,7 +36,7 @@ Punto *arrivo= new Punto(160,70);
 
 This line returns a points vector that connects the starting point to the end point.
 
-![alt text](https://github.com/SimoneTinella/Path-Planning-Robot-over-Voronoi-Diagram/blob/master/img.jpg)
-
 std::vector<Punto> percorso=mappa->getPercorso(*partenza,*arrivo);
 	
+	
+![alt text](https://github.com/SimoneTinella/Path-Planning-Robot-over-Voronoi-Diagram/blob/master/img.jpg)
